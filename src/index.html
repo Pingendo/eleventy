@@ -1,9 +1,10 @@
 ---
-title: Team
+title: Products
 images:
   - people_1.jpg
   - people_2.jpg
   - people_3.jpg
+data: products
 ---
 
 <html><head>
@@ -33,14 +34,23 @@ images:
         </div>
       </div>
       <div class="row">
-
         <div pi-repeat="i in images" class="col-6 col-lg-4 animate-in-left">
           <a href="#">
             <img src="assets/conference/{{ i }}" class="center-block img-fluid my-3 rounded-circle" width="300">
-            <h3 class="mb-0"><b>Matthew Jong</b></h3>
-            <p class="text-muted"> UI designer</p>
           </a>
         </div>
+
+        <div pi-repeat="key,p in products" class="col-6 col-lg-4 animate-in-left">
+          <a href="#">
+            <img src="assets/conference/{{ p }}" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b>{{p.description}}</b></h3>
+            <p class="text-muted">{{p.description}} </p>
+          </a>
+        </div>
+
+      </div>
+
+   
 
       </div>
     </div>
