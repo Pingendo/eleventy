@@ -31,7 +31,7 @@ data: products
       <div class="row">
  
 
-        <div pi-repeat="key,t in tshirt" class="col-6 col-lg-4 animate-in-left" pi-if="tshirt.price">
+        <div pi-repeat="key,to in tshirt" class="col-6 col-lg-4 animate-in-left" pi-if="to.price">
           <a href="#">
             <img src="assets/conference/{{ product.description }}" class="center-block img-fluid my-3 rounded-circle" width="300">
             <h3 class="mb-0"><b>{{t.description}}</b></h3>
