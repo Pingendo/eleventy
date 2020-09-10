@@ -34,13 +34,12 @@ data: products
         </div>
       </div>
       <div class="row">
-
-
-        <div pi-repeat="key,p in products" class="col-6 col-lg-4 animate-in-left">
+ 
+        <div pi-repeat="key,product in products" class="col-6 col-lg-4 animate-in-left">
           <a href="#">
-            <img src="assets/conference/{{ p }}" class="center-block img-fluid my-3 rounded-circle" width="300">
-            <h3 class="mb-0"><b>{{p.description}}</b></h3>
-            <p class="text-muted">{{p.description}} </p>
+            <img src="assets/conference/{{ product.description }}" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <h3 class="mb-0"><b>{{product.description}}</b></h3>
+            <p class="text-muted">{{product.description}} </p>
           </a>
         </div>
 
