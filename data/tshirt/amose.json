@@ -1,7 +1,7 @@
 {
   "highlight": false,
   "title": "Mose",
-  "price": 22,
   "thumbnail": "/assets/img/people_1.jpg",
-  "description": "He is....."
+  "description": "He is.....",
+  "price" : "1110"
 }

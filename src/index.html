@@ -1,6 +1,6 @@
 ---
 title: Products
-data: products
+data: tshirt
 ---
 
 <html><head>
@@ -30,14 +30,25 @@ data: products
       </div>
       <div class="row">
  
+        {{ "foo bar" | truncate(3) }}
 
-        <div pi-repeat="key,to in tshirt" class="col-6 col-lg-4 animate-in-left" pi-if="to.price">
+        <div pi-repeat="key,to in tshirt|sort(attribute='title') " class="col-6 col-lg-4 animate-in-left" >
           <a href="#">
             <img src="assets/conference/{{ product.description }}" class="center-block img-fluid my-3 rounded-circle" width="300">
-            <h3 class="mb-0"><b>{{t.description}}</b></h3>
-            <p class="text-muted">{{t.description}} </p>
+            <h3 class="mb-0"><b>{{to.description}}</b></h3>
+            <p class="text-muted">{{to.price}} </p>
           </a>
         </div>
+
+
+        {% for key,to in tshirt | dictsort %}
+        <section>
+            <h1>{{ to.title }}</h1>
+        </section>
+        {% endfor %}
+
+
+    </div>
 
       </div>
 
