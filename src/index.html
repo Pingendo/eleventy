@@ -32,16 +32,15 @@ data: tshirt
  
         {{ "foo bar" | truncate(3) }}
 
-        <div pi-repeat="key,to in tshirt|sort(attribute='title') " class="col-6 col-lg-4 animate-in-left" >
+        <div pi-repeat="key,to in tshirt " class="col-6 col-lg-4 animate-in-left" >
           <a href="#">
-            <img src="assets/conference/{{ product.description }}" class="center-block img-fluid my-3 rounded-circle" width="300">
+            <img src="assets/conference/{{ to.description }}" class="center-block img-fluid my-3 rounded-circle" width="300">
             <h3 class="mb-0"><b>{{to.description}}</b></h3>
             <p class="text-muted">{{to.price}} </p>
           </a>
         </div>
 
-
-        {% for key,to in tshirt | dictsort %}
+        {% for key,to in tshirt | dictsort('title') %}
         <section>
             <h1>{{ to.title }}</h1>
         </section>
