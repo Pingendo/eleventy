@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- PAGE settings -->
   <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
-  <title>Conference Aquamarine - Pingendo template</title>
+  <title>Common static template</title>
   <meta name="description" content="Free Bootstrap 4 Pingendo Aquamarine template for unique events.">
   <meta name="keywords" content="Pingendo conference event aquamarine free template bootstrap 4">
   <!-- CSS dependencies -->
@@ -20,24 +20,15 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <h1>{{title}}</h1>  
+          <h1>Static Page</h1>  
 
+          <div pi-repeat="p in (collections.tshirt)" class="col-6 col-lg-4 animate-in-left">
+             <a href="{{p.url}}" >  Link a {{p.data.title}}</a>
+          </div>
         </div>
       </div>
-      <div class="row">
- 
-        <div pi-repeat="key in (collections.tshirt)" class="col-6 col-lg-4 animate-in-left" >
-          <a  href="#">--{{key.url}}--
-          </a>
-        </div>
     </div>
-
-      </div>
-
-   
-
-      </div>
-    </div>
+  </div>
   
   <!-- Schedule -->
   <!-- Sponsor logos -->
