@@ -2,7 +2,7 @@ const pluginPingendo = require("pingendo-11ty");
 
 
 module.exports = function(eleventyConfig) {
-  // eleventyConfig.addPlugin(pluginPingendo);
+  eleventyConfig.addPlugin(pluginPingendo);
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setDynamicPermalinks(true);
   eleventyConfig.setTemplateFormats([
@@ -28,9 +28,10 @@ module.exports = function(eleventyConfig) {
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
     dir: {
-      input: "src",
-      output: "build",
-      data: "../data" // ⚠️ This value is relative to your input directory.
+      input: ".",
+      includes: "_includes",
+      data: "_data",
+      output: "_site"
     }
   };
 
