@@ -25,11 +25,15 @@
         </div>
       </div>
       <div class="row">
- 
+        <% for(var i=0; i < collections.tshirt.length ; i++) {%>
+          <%- collections.tshirt[i].url -%>
         <div pi-repeat="key in (collections.tshirt)" class="col-6 col-lg-4 animate-in-left" >
-          <a  href="#">----
+          <a  href="#">sadsadas
           </a>
         </div>
+
+        <% } %>
+
     </div>
 
       </div>

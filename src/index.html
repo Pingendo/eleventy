@@ -26,12 +26,8 @@
       </div>
       <div class="row">
  
-        <div pi-repeat="key,to in (tshirt) " class="col-6 col-lg-4 animate-in-left" >
-          <a href="#">
-            <img src="{{ to.thumbnail }}" class="center-block img-fluid my-3 rounded-circle" width="300">
-            <h3class="mb-0"><b>{{to.title}}</b></h3>
-            Price <p class="text-muted" style="text-decoration:line-through ">  {{to.price}} </p>
-            <p class="text-muted">{{to.discount}} </p>
+        <div pi-repeat="key in (collections.tshirt)" class="col-6 col-lg-4 animate-in-left" >
+          <a  href="#">--{{key.url}}--
           </a>
         </div>
     </div>

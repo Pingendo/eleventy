@@ -2,10 +2,11 @@ const pluginPingendo = require("pingendo-11ty");
 
 
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(pluginPingendo);
+  // eleventyConfig.addPlugin(pluginPingendo);
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setDynamicPermalinks(true);
   eleventyConfig.setTemplateFormats([
+    "ejs",
     "md",
     "js",
     "html",
@@ -16,6 +17,7 @@ module.exports = function(eleventyConfig) {
 
   return {
     templateFormats: [
+      "ejs",
       "md",
       "njk",
       "html",
