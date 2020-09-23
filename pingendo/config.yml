@@ -1,4 +1,4 @@
-index_path: "src/index.html"
+index_path: "index.html"
 #sources_path : "src/"
 netlify_site_name : peleventy
 production_branch : master
