@@ -1,5 +1,5 @@
 index_path: "src/index.html"
-sources_path : "src/"
+#sources_path : "src/"
 netlify_site_name : peleventy
 production_branch : master
 # editable_selector : "a, p, h1,h2,h3,h4,h5, button,ul,li"
