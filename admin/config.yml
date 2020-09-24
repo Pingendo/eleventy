@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+
+media_folder: "src/assets/img" # Media files will be stored in the repo under images/uploads
+public_folder: "/assets/img"
+collections:
+  - name: "tshirt" # Used in routes, e.g., /admin/collections/blog
+    label: "T-shirt" # Used in the UI
+    folder: "data/tshirt" # The path to the folder where the documents are stored
+    format : "json"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      # - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Price", name: "price", widget: "number"}
+      - {label: "Discount", name: "discount", widget: "number", required: false}
+      - {label: "Highlight", name: "highlight", widget: "boolean", default: false, required: false }
+      - {label: "Image", name: "thumbnail", widget: "image"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - label: Tags
+        name: "tags"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ["Sale", "Trend"]
+
+  - name: "products" # Used in routes, e.g., /admin/collections/blog
+    label: "Product" # Used in the UI
+    folder: "data/products" # The path to the folder where the documents are stored
+    format : "json"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields for each document, usually in front matter
+      # - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Price", name: "price", widget: "number"}
+      - {label: "Discount", name: "discount", widget: "number", required: false}
+      - {label: "Highlight", name: "highlight", widget: "boolean", default: false, required: false }
+      - {label: "Image", name: "thumbnail", widget: "image"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - label: Tags
+        name: "tags"
+        widget: "select"
+        required: false
+        multiple: true
+        options: ["Sale", "Trend"]
