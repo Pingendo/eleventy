@@ -1,7 +1,9 @@
----  
-title: secondo
-description: This is a secondo product.
-price: 25
-date: 2020-10-09
-tags:  "tshirt"
-layout: product
+---
+title: giorgio  32 ljklkjllkjljkkljlk 3
+description: This is a second product.
+price: '   kol 25422'
+date: '2018-05-01T00:00:00.000Z'
+tags: Trend
+layout: product2020.html
+---
+
