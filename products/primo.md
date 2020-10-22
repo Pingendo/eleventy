@@ -1,10 +1,10 @@
 ---
 title: 'primo,,,opo3099987938o2j'
 description: This is a second product.
-price: '   kol 25422lej'
+price: '   kol 25422le'
 date: '2018-05-01T00:00:00.000Z'
 tags: Trend
 layout: product2020.html
-discount: j
+discount: j4
 ---
 
