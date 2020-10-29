@@ -22,9 +22,27 @@
         <div class="col-md-12">
           <h1>Static Page2</h1>  
 
-          <div pi-repeat="p in (collections.tshirt)" class="col-6 col-lg-4 animate-in-left">
-             <a href="{{p.url}}">  Link a {{p.data.title}}</a>
+          {{%-collections.tshirt[0].data.title %}}
+
+          <div pi-repeat="p of collections.tshirt" class="col-6 col-lg-4 animate-in-left">
+
+     
+              <div pi-if="p.data.title == 'primo'">
+
+                VAMOS
+              </div>
+
+
+
+
+            <a href="{{%-p.url%}}">  Link2 a {{%-p.data.title%}}</a>
           </div>
+
+
+          <span pi-bind="collections.tshirt[0].data.title"></span>
+          <span pi-bind="collections.tshirt[1].data.title"></span>
+
+
         </div>
       </div>
     </div>

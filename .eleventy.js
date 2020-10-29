@@ -2,6 +2,10 @@ const pluginPingendo = require("pingendo-11ty");
 
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.setEjsOptions({
+    openDelimiter: "{{",
+    closeDelimiter: "}}"
+  });
   eleventyConfig.addPlugin(pluginPingendo);
   eleventyConfig.setDataDeepMerge(true);
   eleventyConfig.setDynamicPermalinks(true);
@@ -15,6 +19,7 @@ module.exports = function(eleventyConfig) {
     "css" // css is not yet a recognized template extension in Eleventy
   ]);
 
+
   return {
     templateFormats: [
       "ejs",
@@ -24,9 +29,9 @@ module.exports = function(eleventyConfig) {
       "liquid",
     ],
     passthroughFileCopy: true,
-    markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-    dataTemplateEngine: "njk",
+    markdownTemplateEngine: "ejs",
+    htmlTemplateEngine: "ejs",
+    dataTemplateEngine: "ejs",
     dir: {
       input: ".",
       includes: "_includes",
