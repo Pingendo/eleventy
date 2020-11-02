@@ -8,7 +8,7 @@ public_folder: "/assets/img"
 collections:
   - name: "tshirt" # Used in routes, e.g., /admin/collections/blog
     label: "T-shirt" # Used in the UI
-    folder: "data" # The path to the folder where the documents are stored
+    folder: "tshirt" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       # - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
@@ -23,11 +23,11 @@ collections:
         widget: "select"
         required: false
         multiple: true
-        options: ["tshirt", "product"]
+        options: ["tshirt", "products"]
 
   - name: "products" # Used in routes, e.g., /admin/collections/blog
     label: "Product" # Used in the UI
-    folder: "data" # The path to the folder where the documents are stored
+    folder: "products" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in front matter
       # - {label: "Layout", name: "layout", widget: "hidden", default: "product"}
@@ -42,4 +42,4 @@ collections:
         widget: "select"
         required: false
         multiple: true
-        options: ["tshirt", "product"]
+        options: ["tshirt", "products"]
