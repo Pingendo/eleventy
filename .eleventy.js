@@ -34,9 +34,7 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: "ejs",
     dir: {
       input: ".",
-      includes: "_includes",
-      data: "_data",
-      output: "_site"
+      includes: "_includes"
     }
   };
 
