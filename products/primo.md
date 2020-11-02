@@ -12,7 +12,7 @@ country:
   - '2'
 testimonials:
   - quote: Everything is awesome!?22223321112
-    author: ciccio221
+    author: ciccio22
   - quote: 2Everything is poor!255
     author: Mom!
 tags:
