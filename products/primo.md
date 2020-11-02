@@ -11,9 +11,9 @@ country:
   - '33'
   - ''
 testimonials:
-  - quote: Everything is awesome!?
+  - quote: Everything is awesome!?22
     author: ciccio?
-  - quote: Everything is poor
+  - quote: Everything is poor!25
     author: Mom!
 tags:
   - products
