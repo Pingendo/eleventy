@@ -24,8 +24,8 @@ collections:
         widget: "select"
         required: false
         multiple: true
-        options: ["Sale", "Trend"]
-
+        options: ["tshirt", "product"]
+        
   - name: "products" # Used in routes, e.g., /admin/collections/blog
     label: "Product" # Used in the UI
     folder: "products" # The path to the folder where the documents are stored
@@ -44,4 +44,4 @@ collections:
         widget: "select"
         required: false
         multiple: true
-        options: ["Sale", "Trend"]
+        options: ["tshirt", "product"]
