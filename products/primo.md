@@ -17,6 +17,6 @@ testimonials:
     author: Mom!
 tags:
   - products
-highlight: 'false'
+highlight: 'true'
 ---
 
