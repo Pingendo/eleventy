@@ -988,7 +988,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- PAGE settings -->
   <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
-  <title>{{title}}</title>
+  <title>{{%-title%}}</title>
   <meta name="description" content="Free Bootstrap 4 Pingendo Aquamarine template for unique events.">
   <meta name="keywords" content="Pingendo conference event aquamarine free template bootstrap 4">
   <!-- CSS dependencies -->
@@ -1008,6 +1008,8 @@
           <p pi-bind="description">default d</p>
           tags  <p pi-bind="tags"></p>
 
+          {{%-title%}}
+          {{%-description%}}
 
         </div>  
       </div>
