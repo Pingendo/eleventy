@@ -14,10 +14,12 @@ country:
   - label: it
   - label: es
 testimonials:
-  - quote: Everything is awesome!?22223321112
+  - quote: Everything is awesome!?222233211124
     author: ciccio22
   - quote: 2Everything is poor!255
     author: Mom!
+  - quote: Everything is awesome!
+    author: olè
 tags:
   - tshirt
   - products
