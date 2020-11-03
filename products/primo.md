@@ -11,9 +11,8 @@ description: |
   jkdjkskdskjdsjk
   jdskjsdjkdsjk
 country:
-  - '32'
-  - '32'
-  - '32'
+  - label: it
+  - label: es
 testimonials:
   - quote: Everything is awesome!?22223321112
     author: ciccio22
