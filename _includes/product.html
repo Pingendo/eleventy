@@ -1013,7 +1013,7 @@
 
           testimonials
 
-          <div pi-for="t of testimonials">
+          <div pi-repeat="t of testimonials">
             <p pi-bind="t.author"></p>
             <p pi-bind="t.quote"></p>
           </div>
