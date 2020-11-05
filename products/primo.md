@@ -2,9 +2,9 @@
 price: 253w2
 layout: product.html
 thumbnail: /assets/img/image001.jpg
-date: 2018-05-01T00:00:00.000Z
-title: Primo
-highlight: "false"
+date: '2018-05-01T00:00:00.000Z'
+title: Primofv
+highlight: 'false'
 description: |
   This is a first product. kjksdsdjkasd jkdsjksdakjkjsadjkù
   dslakjsdajksadkj hg
@@ -25,3 +25,4 @@ tags:
   - tshirt
   - products
 ---
+
