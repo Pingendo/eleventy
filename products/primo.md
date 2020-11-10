@@ -2,7 +2,7 @@
 layout: product.html
 thumbnail: /assets/img/image001.jpg
 date: '2018-05-01T00:00:00.000Z'
-title: cicio8
+title: pcicio8
 highlight: 'false'
 description: |
   This is a first product. kjksdsdjkasd jkdsjksdakjkjsadjkù
