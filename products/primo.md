@@ -3,7 +3,7 @@ layout: product.html
 thumbnail: /assets/img/image001.jpg
 date: '2018-05-01T00:00:00.000Z'
 highlight: 'false'
-title : "zio" 
+title : "zvvvvio" 
 description: |
   This is a first producfgdfdt. kjksdsdjkasd jkdsjksdakjkjsadjkù
   dslakjsdajksadkj hg
