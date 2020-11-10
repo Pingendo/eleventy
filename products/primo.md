@@ -2,7 +2,7 @@
 layout: product.html
 thumbnail: /assets/img/image001.jpg
 date: '2018-05-01T00:00:00.000Z'
-title: Primofv2682ddd
+title: Primofv2682dddw2
 highlight: 'false'
 description: |
   This is a first product. kjksdsdjkasd jkdsjksdakjkjsadjkù
