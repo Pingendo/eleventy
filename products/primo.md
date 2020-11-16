@@ -1,7 +1,4 @@
 ---
----
----
-
 price: 253w2
 layout: product.html
 thumbnail: /assets/img/image001.jpg
