@@ -2,26 +2,27 @@
 price: 253w2
 layout: product.html
 thumbnail: /assets/img/image001.jpg
-date: 2018-05-01T00:00:00.000Z
-title: Primo
-highlight: "false"
-description: |
-  This is a first product. kjksdsdjkasd jkdsjksdakjkjsadjkù
+date: '2018-05-01T00:00:00.000Z'
+highlight: 'false'
+title: ciccio
+description: |iou
+  This is a first producfgdfdt. kjksdsdjkasd jkdsjksdakjkjsadjkù
   dslakjsdajksadkj hg
   fggf
-  jkdjkskdskjdsjk
+  jkdjkskdskjdsjki
   jdskjsdjkdsjk
 country:
   - label: it
   - label: es
 testimonials:
   - quote: Everything is awesome!?222233211124
-    author: ciccio22
+    author: ciccio22kp
   - quote: 2Everything is poor!255
     author: Mom!
   - quote: Everything is awesome!
     author: olè
-tags:
-  - tshirt
-  - products
+tags: 'products'
+discount: e
+price: e
 ---
+
