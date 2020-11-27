@@ -1,4 +1,4 @@
-index_path: "index.html"
+index_path: "products/primo.md"
 #sources_path : "src/"
 netlify_site_name : peleventy
 production_branch : master
