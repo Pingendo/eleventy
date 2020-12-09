@@ -1,9 +1,9 @@
 ---
-title: secondo2
+title: secondo22
 description: This is a second prod5uct.
 price: '   kol 25422'
 date: '2018-05-01T00:00:00.000Z'
-tags: 'products'
+tags: products
 layout: product.html
 testimonials:
   - quote: Everything is awesome!?222233211124
