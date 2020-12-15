@@ -4,10 +4,13 @@ layout: product.html
 thumbnail: /assets/img/image001.jpg
 date: '2018-05-01T00:00:00.000Z'
 highlight: 'false'
-title: ciccio82093
-description: >-
-  iou This is a first producfgdfdt. kjksdsdjkasd jkdsjksdakjkjsadjkù
-  dslakjsdajksadkj hg fggf jkdjkskdskjdsjki jdskjsdjkdsjk
+title: ciccio
+description:  iou
+  This is a first producfgdfdt. kjksdsdjkasd jkdsjksdakjkjsadjkù
+  dslakjsdajksadkj hg
+  fggf
+  jkdjkskdskjdsjki
+  jdskjsdjkdsjk
 country:
   - label: it
   - label: es
@@ -18,7 +21,7 @@ testimonials:
     author: Mom!
   - quote: Everything is awesome!
     author: olè
-tags: products
+tags: 'products'
 discount: e
 ---
 
