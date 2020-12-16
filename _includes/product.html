@@ -1701,14 +1701,17 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1 pi-bind="title" contenteditable="true" class="text-center6">default t</h1>  
+          <h1 pi-bind="title"  class="text-center6">default t</h1>  
           <p pi-bind="description">default d</p>
           tags-&gt;  
 
-          {{%-title%}}2
+          {{%-title%}}
           {{%-description%}}
 
           testimonials
+
+
+          <div pi-if="testimonials">
 
           <div pi-repeat="t of testimonials">
             
@@ -1716,6 +1719,7 @@
           </div>
 
 
+        </div>
         </div>  
       </div>
  
